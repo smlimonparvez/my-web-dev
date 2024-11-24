@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.logo a {
+    font-family: 'Pacifico', cursive;
+    margin-left: 4rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #54abce;
+    cursor: pointer;
+}
+
+nav {
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 2.5rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: 0.2s ease-in;
+}
+
+.menu li a:hover {
+    color: #54abce;
+    border: 0.5px solid #54abce;
+    border-radius: 7px;
+}
+
+.welcome-part {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+.content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+}
+
+.color {
+    color: #54abce;
+    font-family: 'Pacifico', cursive;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.content p {
+    margin-left: 1.8rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    transition: 0.3s all ease;
+    margin-top: 1.3rem;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    border: 0.5px solid #54abce;
+}
+
+.content-banner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-banner img {
+    width: 65%;
+}
+
+.dream {
+    display: flex;
+    margin-top: 8.5rem;
+}
+
+#dream-content {
+    margin-right: 1.8rem;
+    margin-left: 0;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.experience {
+    margin-top: 2.5rem;
+    padding: 10px;
+}
+
+.experience>h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-left: 1.3em;
+}
+
+.experience h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.experience h2 {
+    color: tomato;
+}
+
+.experience p {
+    font-size: 1.2rem;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.full-stack,
+.baby-developer {
+    width: 40%;
+    height: 350px;
+    border-left: 2px solid #54abce;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    height: 150px;
+    background-color: rgb(245, 245, 238);
+    margin-top: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-family: 'Pacifico', cursive;
+}
